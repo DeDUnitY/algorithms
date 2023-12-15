@@ -25,7 +25,7 @@ int main()
 	if (!arr.empty()) 
 	{
 		error = 1;
-		std::cout << "íå êîððåêòíûé ïðèìåð" << "\n";
+		std::cout << "не корректный пример" << "\n";
 	}
 
 	std::stack<char> Operator;
@@ -136,7 +136,7 @@ int main()
 				else 
 				{
 					error = 1;
-					std::cout << "íåêêîðåêòíûé ñèìâîë" << "\n";
+					std::cout << "неккоректный символ" << "\n";
 					break;
 				}
 
@@ -168,7 +168,7 @@ int main()
 					if (a == 0)
 					{
 						error = 1;
-						std::cout << "äåëåíèå íà 0" << "\n";
+						std::cout << "деление на 0" << "\n";
 						break;
 					}
 					result = b / a;
